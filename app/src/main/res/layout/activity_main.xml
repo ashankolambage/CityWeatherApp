@@ -12,10 +12,22 @@
         android:hint="Enter city name" />
 
     <Button
+        android:id="@+id/buttonGetCurrentLocation"  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Current Location" />
+
+    <Button
         android:id="@+id/buttonFetch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fetch Weather" />
+        android:text="Get Weather Data" />
+
+    <TextView
+        android:id="@+id/textViewLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Name: "
+        android:paddingTop="16dp"/>
 
     <TextView
         android:id="@+id/textViewLocation"
